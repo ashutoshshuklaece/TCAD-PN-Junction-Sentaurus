@@ -15,21 +15,10 @@ This project demonstrates the complete simulation flow of a silicon PN junction 
 | Junction Location | x = 1 μm                 |
 
 ## Simulation Flow
+Structure Creation (SDE) -> Doping Assignment -> Contact Definition -> Mesh Refinement -> Device Simulation (SDevice) -> Result Visualization (SVisual)
 
-Structure Creation (SDE)
-↓
-Doping Assignment
-↓
-Contact Definition
-↓
-Mesh Refinement
-↓
-Device Simulation (SDevice)
-↓
-Result Visualization (SVisual)
 
 ## Results
-
 The following quantities were analyzed:
 
 * Net Doping Profile
